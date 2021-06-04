@@ -1,0 +1,62 @@
+{
+    "manifest":[
+        {
+            "key": "GLOCK_ZAPPER/weapon_glock_glock_17_gen3_9x19_container.bundle",
+            "dependencyKeys":[
+                "shaders",
+                "cubemaps",
+                "GLOCK_ZAPPER/textures/client_assets.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/weapons/animations/animations.bundle",
+                "GLOCK_ZAPPER/client_assets.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/audio/banks/glock17.bundle",
+                "assets/content/audio/weapons/kedr.bundle",
+                "assets/content/audio/weapons/ak74.bundle",
+                "assets/content/audio/weapons/mpx.bundle",
+                "assets/content/audio/weapons/pm.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/audio/weapons/grach.bundle",
+                "assets/content/weapons/glock17/weapon_glock_glock_17_gen3_9x19.animatorcontrollerdata.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle"
+            ]
+        },
+        {
+            "key": "GLOCK_ZAPPER/client_assets.bundle",
+            "dependencyKeys":[
+                "shaders",
+                "cubemaps",
+                "GLOCK_ZAPPER/textures/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "GLOCK_ZAPPER/textures/client_assets.bundle",
+            "dependencyKeys":[
+                "shaders",
+                "cubemaps"
+            ]
+        },
+        {
+            "key":  "GLOCK_ZAPPER_SLIDE.bundle",
+            "dependencyKeys":[
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key":  "GLOCK_ZAPPER_BARREL.bundle",
+            "dependencyKeys":[
+                "shaders",
+                "cubemaps",
+                "assets/systems/effects/smoke.bundle",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        }
+    ]
+}
