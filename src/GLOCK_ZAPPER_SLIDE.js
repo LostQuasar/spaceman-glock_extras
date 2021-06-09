@@ -23,10 +23,7 @@ class GLOCK_ZAPPER_SLIDE {
         item._props.Prefab.path = itemPrefabPath;
         DatabaseServer.tables.templates.items[itemId] = item;
 
-        SpaceApi.AddItemSlotFilter("5a7ae0c351dfba0017554310", itemId, SpaceApi.FindSlotIndex("5a7ae0c351dfba0017554310", "mod_reciever"));
-        SpaceApi.AddItemSlotFilter("GLOCK_21", itemId, SpaceApi.FindSlotIndex("GLOCK_21", "mod_reciever"));
-        SpaceApi.AddItemSlotFilter("GLOCK_ZAPPER", itemId, SpaceApi.FindSlotIndex("GLOCK_ZAPPER", "mod_reciever"));
-
+        SpaceApi.PlaceItemSlotsFilteredBy(itemClone, itemId);
         SpaceApi.CreateHandbookItem(itemId, itemCategory, itemFleaPrice);
         SpaceApi.CreateNewItemLocale("en", itemId, itemLongName, itemShortName, itemDescription);
         SpaceApi.CreateTraderAssort(itemId+"_ragfairOffer", itemId, "ragfair", itemFleaPrice, "RUB", 1);
